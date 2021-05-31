@@ -1,0 +1,19 @@
+membercenter{
+    background: white;
+    font-size: 15px;
+    color: black;
+    position:fixed;
+    width: 100px;
+    right:-100px;
+    top: 60px;
+    display:flex;
+    flex-direction:column;
+    border-radius:0px 0px 10px 10px;
+    z-index: 99;
+  }
+membercenter div{
+    border-bottom:3px rgb(192, 189, 189) dashed;
+}
+membercenter p{
+  cursor: pointer;
+}
